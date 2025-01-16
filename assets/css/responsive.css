@@ -2770,7 +2770,9 @@
 }
 
 @media screen and (max-width : 575px) {
-
+    .img-left{
+        flex-direction: column-reverse !important;
+    }
     /*  */
     .padding-top {
         padding-top: 40px;
