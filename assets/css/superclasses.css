@@ -27,14 +27,14 @@
 
 .primary-button a:hover,
 .primary-button button:hover {
-    background-color: #0286d1;
+    background-color: #ffb34f !important;
     color: var(--secondary--color);
     transition: ease-in-out 0.6s;
 }
 
 .secondary-button a,
 .secondary-button button {
-    background-color: #00709c;
+    background-color: #0084cd;
     padding: 0;
     min-width: 140px;
     height: 50px;

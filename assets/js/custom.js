@@ -158,3 +158,50 @@ if ($('#back-to-top-btn').length) {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   });
 }
+
+
+let i = 0;
+const phrases = ['Easy to Use', 'Accessible Across All Devices', 'Doctor Centric Design', 'You Own Your Patient Data'];
+
+const randomizeText = () => {
+  const phrase = document.querySelector('.random-word');
+  
+  if (!phrase) return; // Ensure element exists
+
+  // Move to the next phrase
+  const newPhrase = phrases[i];
+  
+  // Apply the fade-out effect by adding a class to trigger animation
+  phrase.classList.add('fade-out');
+  
+  // Wait for the fade-out animation to complete before changing the text
+  const animationTime = getAnimationTime();
+  
+  setTimeout(() => {
+    phrase.textContent = newPhrase;
+    
+    // Remove the fade-out class and trigger fade-in
+    phrase.classList.remove('fade-out');
+  }, animationTime);
+
+  // Increment the index and loop back to 0 if it exceeds the array length
+  i = (i + 1) % phrases.length;
+};
+
+const getAnimationTime = () => {
+  const phrase = document.querySelector('.random-word');
+  if (!phrase) return 3000; // Default animation duration if element is missing
+  
+  const compStyles = window.getComputedStyle(phrase);
+  const animation = compStyles.getPropertyValue('animation') ||
+                    compStyles.getPropertyValue('-moz-animation-duration') ||
+                    compStyles.getPropertyValue('-webkit-animation-duration') || 
+                    '3s'; // Default to 3s
+  
+  // Extract and return animation time in milliseconds
+  return parseFloat(animation.match(/\d*[.]?\d+/)) * 1000;
+};
+
+// Initialize text change and cycle through phrases at animation interval
+randomizeText();
+setInterval(randomizeText, getAnimationTime());
