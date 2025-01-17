@@ -1060,7 +1060,10 @@ body.show-sidebar-drawer #sidebar-drawer {
 }
 
 .hosting-features-con .feature-box h4 {
-    margin-bottom: 6px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #1e1e1e;
+    font-weight: 600;
 }
 
 .hosting-features-con .feature-box img {
@@ -1137,13 +1140,14 @@ body.show-sidebar-drawer #sidebar-drawer {
 }
 
 .performance-con .feature-box img {
-    margin-bottom: 25px;
+    margin-bottom: 18px;
     transition: ease-in-out 0.6s;
+    width: 70px;
 }
 
 .performance-con .feature-box h4 {
     font-weight: 600;
-    margin-bottom: 19px;
+    margin-bottom: 10px;
     line-height: 24px;
     color: #262626;
     font-size: 18px;
@@ -1339,6 +1343,7 @@ body.show-sidebar-drawer #sidebar-drawer {
 
 .banner-con h1 {
     margin-bottom: 19px;
+    font-weight: 700;
 }
 
 .banner-con p {
@@ -3123,4 +3128,11 @@ padding: 20px 30px 30px 30px;
 }
 .feature-content p{
     color: #202020;
+}
+.book-btn a{
+    background: #0089d5 !important;
+    color: #fff !important;
+}
+.book-btn i{
+    color: #fff !important;
 }

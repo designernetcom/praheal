@@ -9,7 +9,7 @@
 
 .primary-button a,
 .primary-button button {
-    background-color: #008bd9;
+    background-color: #008bd9 !important;
     padding: 0;
     min-width: 190px;
     height: 50px;
@@ -34,7 +34,7 @@
 
 .secondary-button a,
 .secondary-button button {
-    background-color: transparent;
+    background-color: #00709c;
     padding: 0;
     min-width: 140px;
     height: 50px;
