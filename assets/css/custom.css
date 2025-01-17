@@ -69,7 +69,7 @@ body {
     line-height: 26px;
     font-weight: 400;
     color: var(--text-color);
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Montserrat", serif;
 }
 
 h1,
@@ -79,7 +79,7 @@ h4,
 h5,
 h6,
 span {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Montserrat", serif;
 }
 
 :root {
@@ -206,7 +206,7 @@ span {
 }
 
 .header-con {
-    padding: 2px 0;
+    padding: 10px 0;
 }
 
 .header-con .navbar-nav li .dropdown-toggle::after {
@@ -708,7 +708,7 @@ body.show-sidebar-drawer #sidebar-drawer {
 
 /* FOOTER SECTION  */
 .footer-con {
-    padding-top: 70px;
+    padding-top: 90px;
     background: #008bd9;
 }
 
@@ -719,7 +719,9 @@ body.show-sidebar-drawer #sidebar-drawer {
     margin-bottom: 0;
     position: relative;
 }
-
+.footer-inner-links1 h4{
+    margin-bottom: 30px !important;
+}
 .footer-con ul li {
     line-height: 18px;
     margin-bottom: 20px;
@@ -762,7 +764,7 @@ body.show-sidebar-drawer #sidebar-drawer {
 }
 
 .footer-con h4 {
-    margin-bottom: 27px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 25px;
     color: #fff;
@@ -1144,7 +1146,8 @@ body.show-sidebar-drawer #sidebar-drawer {
     margin-bottom: 19px;
     line-height: 24px;
     color: #262626;
-    font-size: 19px;
+    font-size: 18px;
+    font-family: "Montserrat", serif;
 }
 
 .performance-con .feature-box:hover img {
@@ -1367,7 +1370,7 @@ body.show-sidebar-drawer #sidebar-drawer {
 }
 
 .banner-con .primary-button a {
-    min-width: 220px;
+    min-width: 190px;
 }
 
 /* HOSTING PLAN SECTION  */
@@ -2916,7 +2919,7 @@ body.show-sidebar-drawer #sidebar-drawer {
     margin-top: 20px;
 }
 .ab-section{
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 70px;
 }
 .footer-logo-con a{
@@ -3097,3 +3100,27 @@ padding: 20px 30px 30px 30px;
   .fas fa-shopping-cart  {
       background-color:#FFF;}
   
+
+/* .imgbg-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0072ad;
+} */
+
+.input-div input::placeholder{
+    color: #202020;
+}
+.input-div textarea::placeholder{
+    color: #202020;
+}
+.form-footer p{
+    color: #202020;
+}
+.ab-sec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feature-content p{
+    color: #202020;
+}

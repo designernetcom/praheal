@@ -12,11 +12,11 @@
     background-color: #008bd9;
     padding: 0;
     min-width: 190px;
-    height: 60px;
+    height: 50px;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
-    line-height: 60px;
+    line-height: 50px;
     width: 100%;
     text-decoration: none;
     color: var(--secondary--color);
@@ -34,12 +34,12 @@
 
 .secondary-button a,
 .secondary-button button {
-    background-color: #0286d1;
+    background-color: transparent;
     padding: 0;
-    min-width: 170px;
+    min-width: 140px;
     height: 50px;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 50px;
     width: 100%;
@@ -105,14 +105,14 @@ h1 {
 h1.sub-heading-title {
     font-size: 50px;
     line-height: 60px;
-    font-weight: 800;
+    font-weight: 600;
     margin-bottom: 12px;
     color: var(--secondary--color);
 }
 
 h2 {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 50px;
     color: var(--black--color);
 
@@ -278,4 +278,13 @@ h6 {
     font-size: 50px;
     padding-bottom: 20px;
     color: #0084cd;
+}
+.text-white {
+    color: #e7e7e7 !important;
+}
+.sign-btn a {
+    color: #000 !important;
+}
+.sign-btn a:hover {
+    color: #fff !important;
 }

@@ -71,13 +71,14 @@
     /* font sizes */
     h1,
     span.special-heading1 {
-        font-size: 54px;
-        line-height: 64px;
+        font-size: 40px;
+        line-height: 50px;
         margin-bottom: 12px;
+        letter-spacing: 0.5px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 35px;
         line-height: 50px;
     }
 
@@ -128,11 +129,11 @@
     }
 
     .banner-con {
-        padding-bottom: 130px;
+        padding-bottom: 110px;
     }
 
     .padding-top160 {
-        padding-top: 120px;
+        padding-top: 110px;
     }
 
     /* SUB BANNER PAGES */
@@ -152,6 +153,7 @@
     .server-migration-con .server-migration-content p {
         margin-bottom:10px;
         color: #fff;
+        font-family: "Montserrat", serif;
     }
 
     .shared-plans-con .vector {
@@ -3181,11 +3183,11 @@
     }
 
     .padding-top160 {
-        padding-top: 30px;
+        padding-top: 45px;
     }
 
     .banner-con {
-        padding-bottom: 30px;
+        padding-bottom: 45px;
     }
 
     .banner-con p {
@@ -3195,8 +3197,8 @@
     }
 
     .banner-con h1 {
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 24px;
+        line-height: 32px;
         margin-bottom: 10px;
     }
 
