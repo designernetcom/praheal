@@ -71,7 +71,7 @@
     /* font sizes */
     h1,
     span.special-heading1 {
-        font-size: 40px;
+        font-size: 33px;
         line-height: 50px;
         margin-bottom: 12px;
         letter-spacing: 0.5px;
@@ -79,7 +79,7 @@
 
     h2 {
         font-size: 35px;
-        line-height: 50px;
+        line-height: 45px;
     }
 
     h3 {
@@ -129,11 +129,11 @@
     }
 
     .banner-con {
-        padding-bottom: 60px;
+        padding-bottom: 90px;
     }
 
     .padding-top160 {
-        padding-top: 60px;
+        padding-top: 90px;
     }
 
     /* SUB BANNER PAGES */
@@ -152,7 +152,7 @@
 
     .server-migration-con .server-migration-content p {
         margin-bottom:10px;
-        color: #fff;
+        color: #000;
         font-family: "Montserrat", serif;
     }
 
@@ -317,8 +317,8 @@
     /* font sizes */
     h1,
     span.special-heading1 {
-        font-size: 48px;
-        line-height: 58px;
+        font-size: 30px;
+        line-height: 35px;
         margin-bottom: 12px;
     }
 
@@ -498,11 +498,11 @@
 
     /* BANNER */
     .banner-con {
-        padding-bottom: 220px;
+        /* padding-bottom: 220px; */
     }
 
     .padding-top160 {
-        padding-top: 100px;
+        padding-top: 40px;
     }
 
     .banner-con h1 span::after {
@@ -1011,9 +1011,9 @@
     /* font sizes */
     h1,
     span.special-heading1 {
-        font-size: 37px;
-        line-height: 47px;
-        margin-bottom: 10px;
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 0px;
     }
 
     h2 {
@@ -1333,7 +1333,7 @@
     }
 
     .banner-con {
-        padding-bottom: 160px;
+        padding-bottom: 70px;
     }
 
     .margin-top-negtv {
@@ -2183,9 +2183,9 @@
 
     /* PERFORMANCE SECTION STYLING */
     .performance-con .feature-box {
-        border: none;
-        padding: 15px 20px;
-        border-right: none !important;
+        /* border: none; */
+        padding: 15px 13px;
+        /* border-right: none !important; */
     }
 
     .performance-con .col-lg-4.col-md-4 {
